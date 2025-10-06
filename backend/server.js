@@ -7,7 +7,7 @@ const port = 3000
 // })
 
 //get 5 jokes
-app.get('/api/jokes', (req, res)=>{
+app.get('https://how-to-connect-frontend-with-backen.vercel.app/jokes', (req, res)=>{
     const jokes=[
   {
     id: 1,
